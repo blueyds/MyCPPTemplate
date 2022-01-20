@@ -10,6 +10,11 @@
 
     bin_PROGRAMS = test
     test_SOURCES = src/main.cpp
+    
+### Pull in the submodule for M4s autoconf directory by running the following
+
+    git submodule init
+    git submodule update
 
 ### rerun configure tools
 
